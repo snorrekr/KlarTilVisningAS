@@ -1,0 +1,116 @@
+body {
+    background: #E5E5E5;
+}
+
+
+#site {
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    background: #FAFAFA ;
+
+    width: 50%;
+    height: 100%;
+    left: 25%;
+    color: black;
+}
+
+p {
+    padding: 5% 16px;
+    text-align: center;
+}
+
+/*navBar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    height: 5%;
+    color: #343D4A;
+  }
+
+  li p {
+      float: left;
+      margin: 0;
+      margin-left: 5%;
+      font-size: 2em;
+  }
+  
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 5% 16px;
+    text-decoration: none;
+    float: right;
+    margin-right:5%;
+    font-size: 1.5em;  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+/*intro*/
+#intro{
+    position: relative;
+}
+#background {
+    width: 100%;
+    opacity: 0.93;
+}
+
+#introBox {
+    width: 60%;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    
+}
+#introText {
+    color: black;
+}
+
+/*info */
+#info{
+    position: relative;
+    height: 25vh;
+    margin-top: 10%;;
+    margin-bottom: 10%;
+}
+
+#profilbilde{
+float: right;
+width: 25%;
+margin-right: 5%;
+}
+
+#infoText {
+    float: left;
+    width: 65%;
+}
+
+/* pris */
+
+#pris{
+    position: relative;
+}
+
+#titlePris{
+    font-size: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#prisText{
+    margin-top: 0;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Referanser */
