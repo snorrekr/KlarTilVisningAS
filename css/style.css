@@ -1,5 +1,5 @@
 body {
-    background: #E5E5E5;
+    background:white;
 }
 
 
@@ -8,7 +8,7 @@ body {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    background: #FAFAFA ;
+    background: 	#F0F0F0 ;
 
     width: 50%;
     height: 100%;
@@ -34,7 +34,7 @@ ul {
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: #E0E0E0;
     height: 5%;
     color: #343D4A;
   }
@@ -139,33 +139,34 @@ margin-right: 5%;
 
 /* footer */
 
-#footer{
-    position: relative;
+footer{
     bottom: 0;
-    background: #F0F0F0;
-    height: 100px;
-    width: 100%;
+    background-color: #E0E0E0;
+    height: 10vh;
+
 }
 
 #footerTitle {
-    margin: 0;
+    text-align: left;
+    margin: 3% 0 0 5%;
     padding: 0;
+    width: 30%;
     float: left;
-    margin-left: 5%;
     font-size: 2em;
+    
 }
 
-#epost{
-    margin: 0;
+#kontakt {
+    text-align: left;
+    margin: 3% 0 0 5%;
     padding: 0;
-    margin-left: 5%;
-    font-size: 1.25em;
-}
-#telefon{
-    margin: 0;
-    padding: 0;
-    float: right;
-    margin-left: 5%;
-    font-size: 1.25em;
+    width: 30%;
+    float: left;
 }
 
+footer img {
+    margin:2.5% 5% 0 0;
+        width: 50px;
+        height: auto;
+        float: right;
+}
