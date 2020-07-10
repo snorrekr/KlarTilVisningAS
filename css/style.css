@@ -21,6 +21,12 @@ p {
     text-align: center;
 }
 
+.title{
+    font-size: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 /*navBar*/
 ul {
     list-style-type: none;
@@ -101,11 +107,6 @@ margin-right: 5%;
     position: relative;
 }
 
-#titlePris{
-    font-size: 2em;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
 #prisText{
     margin-top: 0;
     text-align: left;
@@ -114,3 +115,57 @@ margin-right: 5%;
 }
 
 /* Referanser */
+
+.referanse{
+    position: relative;
+    margin: 10%;
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+#referanse1{
+    position: relative;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+#referanse2{
+    position: relative;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+/* footer */
+
+#footer{
+    position: relative;
+    bottom: 0;
+    background: #F0F0F0;
+    height: 100px;
+    width: 100%;
+}
+
+#footerTitle {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-left: 5%;
+    font-size: 2em;
+}
+
+#epost{
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    font-size: 1.25em;
+}
+#telefon{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-left: 5%;
+    font-size: 1.25em;
+}
+
