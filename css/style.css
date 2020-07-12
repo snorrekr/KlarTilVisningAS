@@ -1,5 +1,5 @@
 body {
-    background:white;
+    background: #E5E5E5;
     scroll-behavior: smooth;
 }
 
@@ -12,7 +12,7 @@ html{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    background: 	#F0F0F0 ;
+    background: 	#FAFAFA ;
 
     width: 50%;
     height: 100%;
@@ -38,7 +38,7 @@ ul {
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #E0E0E0;
+    background-color: #FAFAFA;
     height: 5%;
     color: #343D4A;
   }
@@ -79,7 +79,7 @@ ul {
     top: 50%;
     left: 10%;
     position: absolute;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     
 }
 #introText {
@@ -145,7 +145,7 @@ margin-right: 5%;
 
 footer{
     bottom: 0;
-    background-color: #E0E0E0;
+    background-color: #F0F0F0;
     height: 10vh;
 
 }
