@@ -74,6 +74,16 @@ ul {
     background-color: #ddd;
   }
 
+  @media screen and (max-width: 1275px) {
+      li a{
+        display:none
+      }
+      li p{
+          float: unset;
+          text-align: center;
+      }
+  }
+
 /*intro*/
 #background {
     width: 100%;
