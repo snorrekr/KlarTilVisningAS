@@ -44,6 +44,7 @@ hr {
     text-align: center;
     margin: 10px;
     line-height: 1.6;
+    font-size: 1.3vw;
 }
 
 /*navBar*/
@@ -142,31 +143,32 @@ margin-right: 5%;
 footer{
     bottom: 0;
     background-color: #F0F0F0;
-    height: 14vh;
+    height: 17vh;
 
 }
 
 #footerTitle {
-    text-align: left;
-    margin: 3% 0 0 5%;
+    text-align: center;
+    margin: 5% 0 0 5%;
     padding: 0;
     width: 30%;
     float: left;
-    font-size: 1.5em;
+    font-size: 2vw;
     
 }
 
 #kontakt {
     text-align: left;
-    margin: 3% 0 0 5%;
+    margin: 5% 0 0 5%;
     padding: 0;
-    width: 30%;
+    width: 35%;
     float: left;
+    font-size: 1.3vw;
 }
 
 footer img {
-    margin:2.5% 5% 0 0;
-    width: 50px;
+    margin: 4% 5% 0 0;
+    width: 4vw;
     height: auto;
     float: right;
 }
