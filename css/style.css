@@ -21,7 +21,6 @@ hr {
     background: 	#FAFAFA ;
 
     width: 60%;
-    height: 100%;
     left: 20%;
     color: black;
 }
@@ -36,7 +35,6 @@ hr {
 
 .contentBlock{
     position: relative;
-    height: 100%;
     margin: 0 0 12.5% 0;
 }
 
@@ -55,7 +53,6 @@ ul {
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #FAFAFA;
-    height: 5%;
     color: #343D4A;
   }
 
