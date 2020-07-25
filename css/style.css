@@ -20,7 +20,7 @@ hr {
     font-weight: normal;
     background: 	#FAFAFA ;
 
-    width: 60%;
+    width: 60vw;
     left: 20%;
     color: black;
 }
@@ -35,7 +35,7 @@ hr {
 
 .contentBlock{
     position: relative;
-    margin: 0 0 12.5% 0;
+    margin-bottom: 10%;
 }
 
 .text{
@@ -100,17 +100,15 @@ ul {
 
 /*info */
 
-#info{
-    height: 15%;
-}
-
 #profilbilde{
-float: right;
-width: 25%;
+position: relative;
+width: 24%;
 margin-right: 5%;
+border-radius: 5%;
 }
 
 #infoText {
+    position: relative;
     float: left;
     width: 65%;
 }
@@ -124,9 +122,9 @@ margin-right: 5%;
 .referanseImg{
     position: relative;
     width: 50%;
-    height: auto;
     float: left;
     margin: 1%;
+    border-radius: 5%;
 }
 
 .referanseText{
@@ -139,34 +137,26 @@ margin-right: 5%;
 /* footer */
 
 footer{
-    bottom: 0;
     background-color: #F0F0F0;
-    height: 17vh;
-
+    display: flex;
 }
 
 #footerTitle {
     text-align: center;
-    margin: 5% 0 0 5%;
-    padding: 0;
+    margin: 4% 0 4% 5%;
     width: 30%;
-    float: left;
     font-size: 2vw;
-    
 }
 
 #kontakt {
-    text-align: left;
-    margin: 5% 0 0 5%;
-    padding: 0;
+    margin: 4% 0 0 5%;
     width: 35%;
-    float: left;
     font-size: 1.3vw;
 }
 
 footer img {
-    margin: 4% 5% 0 0;
     width: 4vw;
-    height: auto;
-    float: right;
+}
+footer a{
+    margin: 3% 5% 0 0;
 }
