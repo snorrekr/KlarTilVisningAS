@@ -149,9 +149,10 @@ footer {
 }
 
 #kontakt {
-  margin: 4% 0 0 5%;
+  margin: 3% 0 0 5%;
   width: 35%;
   font-size: 1.3vw;
+  line-height: 1.6;
 }
 
 footer img {
