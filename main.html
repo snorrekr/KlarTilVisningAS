@@ -2,21 +2,23 @@
 
 <header>
   <title>Klar til Visning</title>
-  <link rel="stylesheet" media="(max-width: 500px)" href="css/phone.css" />
-  <link rel="stylesheet" media="(min-width:501px)" href="css/pc.css" />
-  <link rel="stylesheet" media="(min-width:1500px)" href="css/desktop.css" />
+  <!--<link rel="stylesheet" media="(max-width: 500px)" href="css/phone.css" /> -->
+  <link rel="stylesheet" href="css/pc.css" />
+  <!-- <link rel="stylesheet" media="(min-width:1500px)" href="css/desktop.css" /> -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 </header>
 
 <body>
   <div id="site">
+    <div class="navbar">
     <ul>
       <li><a id="hjem" href="#site">Klar til Visning AS</a></li>
       <li><a href="#kontakt">Kontakt</a></li>
       <li><a href="#referanse">Referanser</a></li>
       <li><a href="#pris">Priser</a></li>
     </ul>
+  </div>
 
     <div class="contentBlock">
       <img src="img/background.jpg" alt="background" id="background" />
@@ -35,18 +37,20 @@
     </div>
 
     <div class="contentBlock">
-      <p id="infoText" class="text">
-        <b>Elisabeth Skjellestad </b> <br />
-        <br />
-        - 15 års erfaring i å forberede boliger til fotografering og visning.
-        <br />
-        <br />
-        - Legger vekt på god kommunikasjon og oppfølging for få den beste
-        løsningen. <br />
-        <br />
-        - Solid kvalite til løsninger og presentasjon.
-      </p>
-      <img src="img/profil.png" alt="profil bilde" id="profilbilde" />
+      <div id="info">
+        <p id="infoText" class="text">
+          <b>Elisabeth Skjellestad </b> <br />
+          <br />
+          - 15 års erfaring i å forberede boliger til fotografering og visning.
+          <br />
+          <br />
+          - Legger vekt på god kommunikasjon og oppfølging for få den beste
+          løsningen. <br />
+          <br />
+          - Solid kvalite til løsninger og presentasjon.
+        </p>
+        <img src="img/profil.png" alt="profil bilde" id="profilbilde" />
+      </div>
     </div>
 
     <div class="contentBlock" >
@@ -69,7 +73,7 @@
       <hr />
       <div class="referanse">
         <img src="img/ref_1.jpg" alt="referanse 1" class="referanseImg" />
-        <p class="referanseText">
+        <p class="text referanseText">
           Elisabeth ga meg gode råd og tips som jeg ikke hadde tenkt på selv.
           <br />
           Løsningen ga et luftig og åpent inntrykk samtidig som det ble en
@@ -79,7 +83,7 @@
       </div>
       <div class="referanse" style="padding-bottom: 0;">
         <img src="img/ref_2.jpg" alt="referanse 2" class="referanseImg" />
-        <p class="referanseText">
+        <p class="text referanseText">
           Elisabeth er veldig dyktig og erfaren. Hun er kreativ og har et blikk
           som ser alt. Bruker interiøret som kunden allerede har og fletter inn
           elementer slik at det blir en god helhetlig løsning. <br />
